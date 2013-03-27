@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="app_name">shendutheme</string>
+    <string name="hello_world">深度主题</string>
+     <string name="system_Internal_Theme">系统主题</string>
+    <string name="menu_settings">导入主题</string>
+    <string name="title_activity_shen_du__main">ShenDu Theme</string>
+    <string name="app_ap">应   用</string>
+    <string name="app_re">恢复默认</string>
+    <string name="btn_string">Button</string>
+    <string name="mes">请稍等…</string>
+    <string name="system_theme">contentDescription</string>
+    <string name="strive">团队正在努力制作中..敬请期待噢.....</string>
+    <string name="back">    默认</string>
+    <string name="selected">已选中更改模块</string>
+    <string name="local">本地主题</string>
+    <string name="net">在线主题</string>
+    <string name="dialog_system_message">ROM自带主题不允许删除</string>
+    <string name="dialog_sdcard_message">您确定删除此主题包？</string>
+    <string name="dialog_system_title">提示</string>
+    <string name="dialog_system_negativeButton">确定</string>
+    <string name="dialog_system_neutralButton">取消</string>
+     <string name="progressDialog_title_app">正在处理中</string> 
+     <string name="progressDialog_message">请稍等.....</string> 
+</resources>

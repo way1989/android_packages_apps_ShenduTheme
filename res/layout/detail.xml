@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/parentLinearLayout"
+        android:layout_marginTop="@dimen/detail_top"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/detail_height"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/detail_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="bottom|center"
+        android:orientation="horizontal"
+	>
+
+        <ImageButton
+            android:id="@+id/img_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:layout_marginRight="@dimen/btn_left" 
+           android:visibility="invisible"
+            />
+<!--   android:visibility="invisible"  -->
+        <Button
+            android:id="@+id/buttonApp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+            android:text="@string/app_ap" />
+           <!--  android:layout_marginLeft="50dp" -->
+
+        <ImageButton
+            android:id="@+id/img_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/btn_right" 
+            android:visibility="invisible"
+            />
+          <!--   android:visibility="invisible"  -->
+        <!--  android:layout_marginLeft="45dp" -->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/system_theme"
+        android:visibility="gone" />
+
+</RelativeLayout>

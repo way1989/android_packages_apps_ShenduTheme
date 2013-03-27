@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">ShenDuTheme</string>
+    <string name="hello_world">ShenDuTheme</string>
+    <string name="system_Internal_Theme">System Theme</string>
+    <string name="menu_settings">Import Theme</string>
+    <string name="title_activity_shen_du__main">ShenDu Theme</string>
+    <string name="app_ap">Set up</string>
+    <string name="app_re">Restore default</string>
+    <string name="btn_string">Button</string>
+    <string name="mes">Just a minute, please....</string>
+    <string name="system_theme">contentDescription</string>
+    <string name="strive">The team is working to make .. please wait .. oh ...</string>
+    <string name="back">    Default</string>
+     <string name="selected">The selected change module</string>
+     <string name="local">Local Theme</string>
+    <string name="net">Network Theme</string>
+    
+   <string name="dialog_system_message">System built-in theme is not allowed to delete</string>
+    <string name="dialog_sdcard_message">Are you sure to delete this theme pack?</string>
+    <string name="dialog_system_title">Prompt</string>
+    <string name="dialog_system_negativeButton">Determine</string>
+    <string name="dialog_system_neutralButton">Cancel</string>    
+    
+     <string name="progressDialog_title_app">Is being processed</string> 
+     <string name="progressDialog_message">Just a minute, please.....</string> 
+    
+</resources>

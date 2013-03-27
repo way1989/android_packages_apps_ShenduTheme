@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shendu.theme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT" />
+
+    <application
+        android:icon="@drawable/theme"
+        android:label="@string/hello_world"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ShenDu_MainActivity"
+            android:label="@string/hello_world"
+            android:theme="@style/Theme.Top.Title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LocalThemeActivity"
+            android:theme="@style/Theme.Top.Title" >
+        </activity>
+        <activity android:name=".NetWorkTheme" >
+        </activity>
+        <activity
+            android:name=".DetailThemeActivity"
+            android:label="@string/back"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Top.Title" />
+
+        <receiver android:name="com.shendu.broadcast.LauncherBroadcast" >
+            <intent-filter>
+                <action android:name="com.shendu.theme.LauncherBroadcast_parser_perview_Action" />
+                 <action android:name="com.shendu.theme.LauncherBroadcast_setting_theme_Action" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

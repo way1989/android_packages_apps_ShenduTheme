@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="prv_width">120dp</dimen>
+		<dimen name="prv_height">180dp</dimen>
+		<dimen name="select_left">50dp</dimen>
+		<dimen name="detail_top">35dp</dimen>
+		<dimen name="detail_height">400dp</dimen>
+		<dimen name="btn_left">60dp</dimen>
+		<dimen name="btn_right">50dp</dimen>
+		<dimen name="dot1_top">20dp</dimen>
+</resources>
